@@ -1,0 +1,131 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.container div {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(65, 26, 155);
+}   
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(53, 0, 243);
+
+}
+.square {
+    height: 100px; 
+    width: 100px;
+    background: black;
+    
+    }
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 0, 221);
+    border-radius: 50%;
+    border:4px solid black;
+
+
+}
+
+    .trapezoid {
+        border-bottom: 100px solid #555;
+        border-left: 0x solid transparent;
+        border-right: 45px solid transparent;
+        height: 0;
+        width: 125px;
+    
+}
+
+.ass {
+    width: 700px;
+    height: 350px;
+    background:  linear-gradient(135deg, rgb(253, 207, 1) 0%, rgb(243, 3, 3) 100% );
+    position: relative;
+    padding: 15px;
+    border:4px solid rgb(0, 253, 63);
+
+}
+.finger {
+    height: 100px;
+    width: 100px;
+    background: rgb(178, 243, 0);
+    border-radius: 50%;
+    border:4px solid rgb(0, 124, 240);
+
+}
+.pinus {
+    
+    display: inline-block;
+    border: 50px solid transparent;
+    border-top: 100px solid rgb(53, 0, 247);
+    position: absolute;
+    top: 22px;
+    
+
+}
+.pinus:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -96px;
+    left: -45px;
+    border: 45px solid transparent;
+    border-top: 90px solid rgb(3, 126, 44);
+
+}
+
+.cucumber {
+    height: 200px; 
+    width: 400px;
+    background: rgb(16, 0, 233);
+    border: 4px solid black;
+    position: absolute;
+    top: 150px;
+}
+
+.banana {
+    height: 100px;
+    width: 100px;
+    background: rgb(6, 211, 247);
+    border-radius: 50%;
+    border:4px solid rgb(0, 192, 58);
+    position: absolute;
+    top: 190px;
+    left: 50px;
+
+}
+
+.bangdick {
+    
+        display: inline-block;
+        border: 50px solid transparent;
+        border-bottom: 100px solid orange;
+        position: absolute;
+        top: 150px;
+        left: 220px;
+
+    }
+    .bangdick:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: -38px;
+        left: -45px;
+        border: 45px solid transparent;
+        border-bottom: 90px solid rgb(7, 160, 248);
+    
+    }
